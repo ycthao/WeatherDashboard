@@ -33,6 +33,10 @@ Installation is not required if the Weather Dashboard is opened via link provide
 Alternatively, it can be download via github as a zip file.
 Once download is completed, unzip file and open index.html file.
 
+## API ##
+Credit to OpenWeather for used API in this application:
+https://openweathermap.org/api
+
 ## Technology ##
 Uses: HTML, CSS, JavaScript, JQuery, API
 

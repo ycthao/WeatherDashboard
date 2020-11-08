@@ -16,13 +16,13 @@
 
     <!-- Adding title and search bar -->
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand">Weather Dashboard</a>
+        <p class="navbar-brand">Weather Dashboard</a>
     </nav>
 
     <!-- Main div page showing search option to the left and weather to the right -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 bg-color">
+            <div class="col-sm-4 bg-sch-color">
                 <form class="form-inline">
                     <h5>Search for a city:</h5>
                     <!-- Search input -->
@@ -37,8 +37,38 @@
                     </svg>
                 </form>
             </div>
-            <div class="col-sm-8">
-                col-sm-8
+            <div class="col-sm-8 bg-wtr-color">
+                <!-- Current city's weather -->
+                <div id="currentWeather">
+                    <h5 id="city">col-sm-8</h5>
+
+
+                </div>
+
+                <!-- 5-day forecast div -->
+                <div id="5dayForecast">
+                    <h5>5-Day Forecast:</h5>
+
+                    <!-- show each day forcast -->
+                    <div class="row">
+                        <div class="col bg-wtr-color">
+                            1
+                        </div>
+                        <div class="col bg-wtr-color">
+                            2
+                        </div>
+                        <div class="col bg-wtr-color">
+                            3
+                        </div>
+                        <div class="col bg-wtr-color">
+                            4
+                        </div>
+                        <div class="col bg-wtr-color">
+                            5
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>

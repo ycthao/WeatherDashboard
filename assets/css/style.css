@@ -4,14 +4,19 @@ body {
 
 .bg-sch-color {
     background-color: #fbff0020;
+    padding-top: 5px;
+    padding-bottom: 10%;
 }
 
 .bg-wtr-color {
     background-color: #ff000070;
+    padding-top: 5px;
 }
 
 #currentWeather {
     background-color: #61ac5e70;
+    padding-bottom: 10%;
+    border-radius: 5px;
 }
 
 .dayforecast {
@@ -23,6 +28,8 @@ body {
     
 }
 
+/*
 .hide {
     display: none;
 }
+*/

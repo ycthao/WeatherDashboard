@@ -22,7 +22,8 @@
     <!-- Main div page showing search option to the left and weather to the right -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 bg-sch-color">
+            <!-- left div for search and search history -->
+            <div class="col-sm-3 bg-sch-color">
                 <form class="form-inline">
                     <h5>Search for a city:</h5>
                     <!-- Search input -->
@@ -36,8 +37,17 @@
                             d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
                     </svg>
                 </form>
+
+                <ul>
+                    <li>1</li>
+                </ul>
+
+
+
             </div>
-            <div class="col-sm-8 bg-wtr-color">
+
+            <!-- right div to show weather -->
+            <div class="col-sm-9 bg-wtr-color">
                 <!-- Current city's weather -->
                 <div id="currentWeather">
                     <h5 id="city">col-sm-8</h5>
@@ -51,6 +61,7 @@
 
                     <!-- show each day forcast -->
                     <div class="row">
+
                         <!-- Day 1 -->
                         <div class="col dayforecast">
                             <h6 id="day1">11/8/2020</h6>

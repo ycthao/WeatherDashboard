@@ -27,9 +27,9 @@
                 <form class="form-inline">
                     <h5>Search for a city:</h5>
                     <!-- Search input -->
-                    <input class="form-control mr-sm-2" type="search" placeholder="Enter city" aria-label="Search">
+                    <input class="form-control mr-sm-2" id="searchInput" type="search" placeholder="Enter city" aria-label="Search">
                     <!-- Search icon -->
-                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-search text-dark" fill="currentColor"
+                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-search text-dark" id="search" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
@@ -39,8 +39,8 @@
                 </form>
 
                 <br />
-
-                <div class="searchHistory hide">
+                <!-- Add search history in this div in a li -->
+                <div class="searchHistory hide" id="searchHistory">
                     <ul class="list-group">
                         <li class="list-group-item">Cras justo odio</li>
                         <li class="list-group-item">Dapibus ac facilisis in</li>

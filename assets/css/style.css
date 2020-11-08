@@ -6,10 +6,19 @@ body {
     background-color: #fbff0020;
 }
 
-.bg-wtr-color{
+.bg-wtr-color {
     background-color: #ff000070;
 }
 
-#currentWeather{
+#currentWeather {
     background-color: #61ac5e70;
+}
+
+.dayforecast {
+    background-color: #007bff;
+    color: #fff;
+    font-size: small;
+    margin: 10px;
+    border-radius: 5px;
+    
 }

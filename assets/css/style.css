@@ -1,3 +1,15 @@
-.bg-color {
+body {
     background-color: #ecebeb;
+}
+
+.bg-sch-color {
+    background-color: #fbff0020;
+}
+
+.bg-wtr-color{
+    background-color: #ff000070;
+}
+
+#currentWeather{
+    background-color: #61ac5e70;
 }

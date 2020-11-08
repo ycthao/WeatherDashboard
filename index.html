@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +10,35 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Weather Dashboard</title>
 </head>
+
 <body>
-    <p>This is blue</p>
+    <!-- Adding hero to add title -->
+    <section class="hero is-dark">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Weather Dashboard
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main div page showing search option to the left and weather to the right -->
+    <div class="container">
+        <div class="columns">
+            <!-- Search div and search history to show here-->
+            <div class="column is-one-third">
+                <h2>Search for a City:</h2>
+            </div>
+
+
+            <div class="column">Auto</div>
+        </div>
+    </div>
 
     <!-- Adding jquery and my own js sheet -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/js/weather.js"></script>
 </body>
+
 </html>

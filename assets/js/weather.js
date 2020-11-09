@@ -6,12 +6,16 @@ $("#search").on("click", function() {
     let queryURL = "https://api.openweathermap.org/data/2.5/forecast?q="+ city + "&appid=" + key ;
     let lon = "";
     let lat = "";
-    let savedCity = $("<div class='list-group-item'>");
+
+
 
     $.ajax({
     url: queryURL,
     method: "GET"
     }).then(function(response) {
+
+    let rsCity = response.city.name;
+    let savedCity = $("<div class='list-group-item'>").text(rsCity);
 
     // remove hide class
     $("#searchHistory").removeClass("hide");
@@ -21,6 +25,8 @@ $("#search").on("click", function() {
     lat = JSON.stringify(response.city.coord.lat);
     lon = JSON.stringify(response.city.coord.lon);
     
+    
+
     $("#history").append(savedCity);
 
     console.log(response.city.coord.lat);

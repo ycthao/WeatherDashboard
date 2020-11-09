@@ -8,7 +8,8 @@ $.ajax({
 }).then(function(response) {
 
     console.log(response);
-  //$("#city").text(JSON.stringify(response));
+    console.log(response.city.name)
+  $("#city").text(JSON.stringify(response.city.name));
 });
 
 
